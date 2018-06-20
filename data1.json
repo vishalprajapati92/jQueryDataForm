@@ -1,0 +1,21 @@
+[
+    {
+        "firstname" : "firstname",
+        "lastname" : "lastname",
+        "email" : "user@google.com",
+        "location" : ["NJ", "NY", "PA"],
+        "phone" : "34324324323",
+        "batch" : "UI",
+        "address" :
+                        {
+                        "communication": "Google, NY",
+                        "permanent" : "Google, CA"
+                        },
+        "previous_employer" :
+                        {
+                            "google" : "Computer Programmer",
+                            "facebook" : "Front end developer",
+                            "linkedIn" : "Software Engineer"
+                        }
+    }
+]

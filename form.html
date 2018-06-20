@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UFT-8">
+            <link rel="stylesheet" type="text/css" href="form.css"> 
+    </head>
+<body>  
+        <form id= "insertDataIntoForm">
+            first name <input type="text" name="firstname"><br>
+            Last name<input type="text" name="lastname"><br>
+            Email <input type="text" name="email"><br>
+            location <input type="text" name="location"><br>
+            phone <input type="text" name="phone"><br>
+            batch <input type="text" name="batch"><br>
+            address communication <input type="text" name="communication"><br>
+            address permanent <input type="text" name="permanent"><br>
+            previous_employer<input type="text" name="previous_employer"><br>
+            <input id="btnSubmit" name="submit"  type="button" value="submit">
+        </form>
+        
+        <div id="divDropDown">
+                <select id="dropdown_id">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="50">50</option>
+                        <option value="onscroll">on scroll</option>
+                    </select>
+        
+        <input id="txtSearch" type="text" name="txt" placeholder="search.."> 
+        </div><br><br>
+        <table id ="tblData" border="1px" width="100%">
+                <tr id="tbl_header">
+                        <th>firstname</th>
+                        <th>lastname</th>
+                        <th>email</th>
+                        <th>location</th>
+                        <th>phone</th>
+                        <th>batch</th>
+                        <th>address for communication</th>
+                        <th>address for permanent</th>
+                </tr>
+        </table>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+        <script src="data.js"></script>
+    </body>
+</html>
